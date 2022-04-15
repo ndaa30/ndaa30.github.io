@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=EB+Garamond:ital,wght@1,500&family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.warna{
+    background-image: url(https://images.unsplash.com/photo-1532189692251-611b2725a4a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+h1{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin-top: 80px;
+    color: #FF5C8D;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #FF5C8D;
+}
+
+h3 {
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin-top: 80px;
+    color: #FF5C8D;
+    font-size: x-large;
+}
+
+#berhenti {
+    margin-top: 100px;
+    margin-left: 600px;
+    align-items: center;
+    position: fixed;
+    color: #FF5C8D ;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+}
