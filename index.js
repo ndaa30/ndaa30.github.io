@@ -43,16 +43,29 @@ let arti = document.getElementById("arti")
 bunga.innerHTML = kembang[random].bunga
 arti.innerHTML = kembang[random].arti
 
-setInterval(function(){
+function my(){
     let random = Math.floor(Math.random() * 6)
     bunga.innerHTML = kembang[random].bunga
     arti.innerHTML = kembang[random].arti
-}, 250)
+}
 
 
-let berhenti = document.getElementById('berhenti')
-berhenti.innerHTML = "Stop"
 
-berhenti.addEventListener('click', function(){
-        
-})
+// setInterval(function(){
+//     let random = Math.floor(Math.random() * 6)
+//     bunga.innerHTML = kembang[random].bunga
+//     arti.innerHTML = kembang[random].arti
+// }, 250)
+
+
+
+
+
+let myInterval = setInterval(my,100)
+
+
+function myStop(){
+    clearInterval(myInterval)
+}
+
+document.getElementById('berhenti').addEventListener('click', myStop)
